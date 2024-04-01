@@ -1,0 +1,83 @@
+/* Base Settings */
+html{
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+button{
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6, p{
+  margin: 0;
+}
+/* End Base Settings */
+
+
+/* Styles */
+body{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: #717171;
+  background-color: #F5F7FA;
+}
+.container{
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+/* Navigation */
+.nav .container{
+  max-width: 1215px;
+}
+.nav__menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.nav__list{
+  display: flex;
+  gap: 50px;
+  color: #18191F;
+  font-weight: 500;
+  line-height: 24px;
+}
+.nav__auth{
+  display: flex;
+  gap: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.nav-auth__login{
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #4CAF4F;
+}
+.nav-auth__reg{
+  border-radius: 6px;
+  background: #4CAF4F;
+  padding: 10px 20px;
+  color: #fff;
+}
