@@ -29,6 +29,9 @@ h1,h2,h3,h4,h5,h6, p{
 
 
 /* Styles */
+:root{
+  --accent-green: #4CAF4F;
+}
 body{
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -77,7 +80,47 @@ body{
 }
 .nav-auth__reg{
   border-radius: 6px;
-  background: #4CAF4F;
+  background: var(--accent-green);
   padding: 10px 20px;
   color: #fff;
+}
+
+/* Hero */
+.hero__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 96px;
+}
+.hero__info{
+  margin-top: 160px;
+}
+.hero__title{
+  color: #4D4D4D;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  max-width: 670px;
+}
+.hero__title span{
+  color: var(--accent-green);
+}
+.hero__text{
+  color: #717171;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  max-width: 670px;
+  margin-top: 16px;
+}
+.hero__link{
+  display: inline-block;
+  color: #FFFFFF;
+  margin-top: 32px;
+  padding: 14px 32px;
+  border-radius: 4px;
+  background-color: var(--accent-green);
+}
+.hero__img{
+  margin-top: 96px;
 }
