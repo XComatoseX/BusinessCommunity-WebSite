@@ -124,3 +124,28 @@ body{
 .hero__img{
   margin-top: 96px;
 }
+
+/* Our clients */
+.our-clients{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+.our-clients__title{
+  color: #4D4D4D;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 8px;
+}
+.our-clients__text{
+  margin-bottom: 16px;
+  line-height: 24px;
+}
+.our-clients__list{
+  display: flex;
+  gap: 136px;
+}
