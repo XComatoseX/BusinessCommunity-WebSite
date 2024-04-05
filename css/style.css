@@ -251,5 +251,50 @@ body{
   background-color: var(--accent-green);
 }
 
-
-
+/* achievenents */
+.achievenents__inner{
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 0;
+}
+.achievenents__title{
+  color: #4D4D4D;
+  max-width: 408px;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+.achievenents__title span{
+  color: var(--accent-green);
+}
+.achievenents__text{
+  color: #18191F;
+  max-width: 540px;
+  line-height: 24px;
+}
+.achievenents__list{
+  display: grid;
+  grid-template-columns: repeat(2, 255px);
+  gap: 40px 30px;
+}
+.achievenents__item{
+  display: grid;
+  grid-template-columns: 48px 191px;
+  grid-template-rows: repeat(2, 1fr);
+  color: #4D4D4D;
+  gap: 0 16px;
+}
+.achievenents-item__img{
+  grid-row-start: span 2;
+  padding-top: 6px;
+}
+.achievenents-item__count{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.achievenents-item__desc{
+  color: #717171;
+  line-height: 24px;
+}
