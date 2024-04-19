@@ -25,6 +25,9 @@ ul{
 h1,h2,h3,h4,h5,h6, p{
   margin: 0;
 }
+blockquote{
+  margin: 0;
+}
 /* End Base Settings */
 
 
@@ -317,6 +320,7 @@ body{
 .calendar__inner{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 48px 0;
 }
 .calendar__text{
@@ -333,4 +337,69 @@ body{
   line-height: 20px;
   font-size: 14px;
   margin-bottom: 46px;
+}
+
+/* Customers */
+.customers__inner{
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+.customers__image{
+  max-width: 326px;
+  max-height: 326px;
+  border-radius: 8px;
+}
+.customers__info{
+  max-width: 748px;
+}
+.customers-text__main{
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.customers-text__author{
+  color: var(--accent-green);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+.customers-text__compnay{
+  color: #89939E;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.customers-info__list{
+  display: flex;
+  align-items: center;
+}
+.customers-list__item{
+  margin-right: 41px;
+  max-width: 48px;
+  max-height: 48px;
+}
+.customers-list__item:nth-child(6){
+  margin-right: 36px;
+}
+.customers-list__item:nth-child(7){
+  max-width: 229px;
+  margin-right: 0;
+}
+
+.customers-item__link{
+  color: var(--accent-green);
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 20px;
+  position: relative;
+}
+.customers-item__link::after{
+  content: url(../images/arrow.svg);
+  position: absolute;
+  max-width: 24px;
+  max-height: 24px;
+  top: 3px;
+  margin-left: 8px;
 }
