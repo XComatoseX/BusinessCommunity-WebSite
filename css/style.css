@@ -403,3 +403,46 @@ body{
   top: 3px;
   margin-left: 8px;
 }
+
+/* community */
+.community-updates__title{
+  text-align: center;
+  padding-top: 48px;
+  font-weight: 600;
+  line-height: 44px;
+  font-size: 36px;
+}
+.community-updates__desc{
+  text-align: center;
+  margin: 0 auto;
+  line-height: 24px;
+  max-width: 628px;
+}
+.community-updates__faq{
+  display: flex;
+  gap: 24px;
+}
+.community-updates-faq__inner{
+  max-width: 368px;
+  max-height: 366px;
+  position: relative;
+}
+.community-updates-faq__img{
+}
+.community-updates-faq__text{
+  position: absolute;
+  max-width: 317px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+  background: #F5F7FA;
+  bottom: -80px;
+  left: 26px;
+}
+.community-updates-faq-text__title{
+  margin-bottom: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 20px;
+}
