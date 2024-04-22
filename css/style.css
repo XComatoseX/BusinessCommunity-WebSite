@@ -60,6 +60,12 @@ body{
   line-height: 24px;
   color: #fff;
 }
+.link-text{
+  color: var(--accent-green);
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 20px;
+}
 
 
 /* Navigation */
@@ -389,10 +395,6 @@ body{
 }
 
 .customers-item__link{
-  color: var(--accent-green);
-  font-weight: 600;
-  line-height: 28px;
-  font-size: 20px;
   position: relative;
 }
 .customers-item__link::after{
@@ -405,6 +407,10 @@ body{
 }
 
 /* community */
+.community-updates{
+  background-color: #FFF;
+  padding-bottom: 175px;
+}
 .community-updates__title{
   text-align: center;
   padding-top: 48px;
@@ -413,6 +419,7 @@ body{
   font-size: 36px;
 }
 .community-updates__desc{
+  padding-bottom: 16px;
   text-align: center;
   margin: 0 auto;
   line-height: 24px;
@@ -426,8 +433,6 @@ body{
   max-width: 368px;
   max-height: 366px;
   position: relative;
-}
-.community-updates-faq__img{
 }
 .community-updates-faq__text{
   position: absolute;
@@ -445,4 +450,16 @@ body{
   font-weight: 600;
   line-height: 28px;
   font-size: 20px;
+}
+.community-updates-faq-text__link{
+  position: relative;
+  margin-left: -32px;
+}
+.community-updates-faq-text__link::after{
+  content: url(../images/arrow.svg);
+  position: absolute;
+  max-width: 24px;
+  max-height: 24px;
+  top: 1px;
+  margin-left: 8px;
 }
