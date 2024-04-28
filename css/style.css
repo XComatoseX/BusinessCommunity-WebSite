@@ -463,3 +463,27 @@ body{
   top: 1px;
   margin-left: 8px;
 }
+
+/* demo */
+.demo{
+  color: #F5F7FA;
+  padding: 32px 0;
+}
+.demo__inner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.demo__title{
+  max-width: 887px;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  color: #263238;
+  margin-bottom: 32px;
+}
+.demo__link{
+  max-width: 178px;
+}
